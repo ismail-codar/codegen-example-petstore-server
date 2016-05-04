@@ -17,11 +17,6 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.38</version>
-		</dependency>
-		<dependency>
 			<groupId>io.advantageous.qbit</groupId>
 			<artifactId>qbit-vertx</artifactId>
 			<version>${qbit-version}</version>
@@ -35,11 +30,6 @@
 			<groupId>io.reactivex</groupId>
 			<artifactId>rxjava-reactive-streams</artifactId>
 			<version>${reactivex-version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.gitblit.iciql</groupId>
-			<artifactId>iciql</artifactId>
-			<version>${iciql-version}</version>
 		</dependency>
 		<dependency>
 			<groupId>codegen</groupId>
