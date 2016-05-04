@@ -115,6 +115,7 @@ export class PetsServiceClient {
 	}
 	
 }
+
 export class StoresServiceClient {
     getOrderById(orderId:string): Promise<Order> {
 		return new Promise<Order>((resolve, reject) => {
@@ -147,6 +148,7 @@ export class StoresServiceClient {
 	}
 	
 }
+
 export class UsersServiceClient {
     createUser(body?:User): Promise<void> {
 		return new Promise<void>((resolve, reject) => {
@@ -229,3 +231,4 @@ export class UsersServiceClient {
 	}
 	
 }
+
